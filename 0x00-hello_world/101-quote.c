@@ -1,9 +1,9 @@
-#include <stdio.h>
+#include <unistd.h>
 
 /**
- * main - print all text in quotes
+ * main - print all text
  *
- * Return: 1 if (success)
+ * Return: Always 1 if (success)
  */
 int main(void)
 {
