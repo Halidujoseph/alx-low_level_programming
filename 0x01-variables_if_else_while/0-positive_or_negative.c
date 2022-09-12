@@ -24,7 +24,7 @@ else if (n == 0)
 }
 else if (n < 0)
 {
-	printf("%d is nagetive\n", n);
+	printf("%d is negative\n", n);
 }
 return (0);
 }
