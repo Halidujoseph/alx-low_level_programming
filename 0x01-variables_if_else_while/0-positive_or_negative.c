@@ -26,5 +26,5 @@ else if (n < 0)
 {
 	printf("%d is nagetive\n", n);
 }
-return (0)
+return (0);
 }
