@@ -2,28 +2,27 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * Main - print random number to variable
- * Return: 0
+ * Main - print random number declear if its positive, negative or zero
+ * Return: Always 0
  */
 int main(void)
 {
 	int n;
-	int m;
+	
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	m = n % 10;
 
-	if (m > 5)
+	if (n > 5)
 	{
-		printf("Last digit of is %d and is greater than 5\n", n, m);
+		printf("%d is positive\n", n);
 	}
-	else if (m == 0)
+	else if (n == 0)
 	{ 
-		printf("Last digit of is %d and is zero\n");
+		printf("%d megative\n", n);
 	}
 	else
 	{	
-		printf("Last digit of is %d and is `less than 6 and 0\n", n, m);
+		printf("%d is zero\n", n);
 	}
 	return (0);
 }
