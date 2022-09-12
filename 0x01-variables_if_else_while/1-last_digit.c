@@ -1,29 +1,29 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /**
- * Main - print random number declear if its positive, negative or zero
- * Return: Always 0
+ * main - print random number to variable
  */
 int main(void)
 {
-	int n;
-	
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
+int n;
+char last[] = "Last digit of";
 
-	if (n > 5)
-	{
-		printf("%d is positive\n", n);
-	}
-	else if (n == 0)
-	{ 
-		printf("%d megative\n", n);
-	}
-	else
-	{	
-		printf("%d is zero\n", n);
-	}
-	return (0);
+srand(time(0));
+n = rand() - RAND_MAX / 2;
+printf("%s %d is %d and is ", last, n, n % 10);
+if (n % 10 > 5)
+{
+	printf("greater than 5\n");
 }
-
+else if (n % 10 ==0)
+{
+	printf("0\n");
+}
+else 
+{
+	printf("less than 6 and not 0\n");
+}
+return (0);
+}
