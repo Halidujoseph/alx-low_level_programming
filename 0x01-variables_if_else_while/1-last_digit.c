@@ -15,15 +15,15 @@ int main(void)
 
 	if (m > 5)
 	{
-		printf("is greater than 5\n", n, m);
+		printf("greater than 5\n", n, m);
 	}
 	else if (m == 0)
 	{ 
-		printf("is zero\n");
+		printf("zero\n");
 	}
 	else
 	{	
-		printf("is less than 6 and not 0\n", n, m);
+		printf("less than 6 and not 0\n", n, m);
 	}
 	return (0);
 }
