@@ -4,7 +4,7 @@
 
 /**
  * main - print random number to variable
- * 
+ *
  * Return: Always 0 (success)
  */
 int main(void)
