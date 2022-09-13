@@ -1,21 +1,21 @@
 #include<stdio.h>
 
 /**
- * main - lowercase and uppercase
+ *
+ * main - remove some alphabet
  *
  * Return: Always 0 (Sucess)
  */
 int main(void)
 {
-	char c;
-
+	chac c;
+	
 	for (c = 'a'; c <= 'z'; c++)
 	{
-		putchar(c);
-	}
-	for (c = 'A'; c <= 'Z'; c++)
-	{
-		putchar(c);
+		if (c !=e && c !=q);
+		{
+			putchar(c);
+		}
 	}
 	putchar('\n');
 	return (0);
