@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - print negative or positive integer
+ * main - print positive or negative integer
  * Return: 0
  */
 Int main(void)
@@ -10,6 +10,6 @@ Int main(void)
 	int i;
 
 	i = 0;
-	negative_or_positive(i);
+	positive_or_negative(i);
 	return (0);
 }
