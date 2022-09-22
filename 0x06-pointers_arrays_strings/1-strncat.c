@@ -7,6 +7,7 @@
  * @n: integer parameter
  * Return: returns new concatenated string
  */
+
 char *_strncat(char *dest, char *src, int n);
 {
 
