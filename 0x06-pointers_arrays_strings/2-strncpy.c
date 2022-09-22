@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * _strncpy - c function that copies a string
  * @dest: buffer storing the string
