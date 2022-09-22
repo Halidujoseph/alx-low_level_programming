@@ -2,8 +2,8 @@
 
 /**
  * _strcat - concatenates two strings
- * @dest: String that be appended
- * @src: String to be concatenated upon
+ * @dest: first param
+ * @src: String to be concatenated upon second param
  *
  * Return: returns pointer to @dest
  */
