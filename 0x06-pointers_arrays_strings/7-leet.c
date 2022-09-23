@@ -6,7 +6,7 @@
  *
  * Return: return encoded string
  */
-char *leet(char *str)
+char *leet(char *s)
 {
 	int i, j;
 	char a[] = "aAeEoOtTlL";
