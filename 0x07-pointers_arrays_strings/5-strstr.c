@@ -2,10 +2,10 @@
 
 /**
  * _strstr - locates a substring
- * @haystack: main str to be examined
- * @needle: seached in haystack
+ * @haystack: string in which to check for needle
+ * @needle: substring to find in haystack
  *
- * Return: return 0
+ * Return: pointer to beginning of needle in haystack or NULL if no match
  **/
 
 char *_strstr(char *haystack, char *needle)
@@ -24,7 +24,7 @@ char *_strstr(char *haystack, char *needle)
 		if (needle[j])
 		{
 			i++
-				j = 0;
+			j = 0;
 		}
 		else
 			return (haystack + i);
