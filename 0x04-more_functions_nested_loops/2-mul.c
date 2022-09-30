@@ -5,10 +5,11 @@
  * mul - multiplies tow integers
  * @a: first input
  * @b: second input
- * Return: product of a &b
+ * Return: product of a & b
  */
 int mul(int a, int b)
 {
-	int product = a * b;	
+	int product = a * b;
+
 	return (product);
 }
